@@ -16,5 +16,3 @@ def get_phoenix_endpoint():
     load_env()
     phoenix_endpoint = os.getenv("PHOENIX_COLLECTOR_ENDPOINT")
     return phoenix_endpoint
-
-

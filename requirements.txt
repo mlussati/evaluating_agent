@@ -6,6 +6,8 @@
 #torch==2.0.1
 numpy==1.26.3
 matplotlib
+pydantic==1.10.13
+strawberry-graphql==0.211.0  # versão compatível com pydantic v1
 
 openinference-instrumentation==0.1.21
 arize-phoenix-otel==0.7.1
